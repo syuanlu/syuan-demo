@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <style>
+        body {
+            max-width: 100vw;
+            margin: 0;
+            background-image: url('../image/back1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*overflow-x: hidden;
+            overflow-y: auto;*/
+            position: relative;
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+        .nav {
+            margin: 20px;
+        }
+
+        .nav-link:hover,
+        .nav-link:active {
+            color: black;
+            border-bottom: rgb(255, 196, 0) 5px solid;
+            line-height: normal;
+        }
+
+        main {
+            /* position: relative; */
+            height: 500px;
+            width: 1200px;
+            overflow-y: scroll; 
+            padding: 30px;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav bg-transparent text-white">
+        <a class="navbar-brand" href="#"><img src="../image/beee.png" width="100px"></a>
+        <div class="mr-auto"></div>
+        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link" href="#">About us</a>
+        <a class="nav-link" href="#">Contact</a>
+    </nav>
+    <main>
+        <div class="row" >
+            <div class="col-3">
+                <nav id="navbar-example3" class="navbar navbar-light bg-light" style="position: fixed;width: 200px;">
+                    <a class="navbar-brand" href="#">逢甲美食</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link" href="#item-1">餐廳</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-1-1">不言Humble</a>
+                            <a class="nav-link ml-3 my-1" href="#item-1-2">南洋廚坊 泰越料理</a>
+                        </nav>
+                        <a class="nav-link" href="#item-2">甜點</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-2-1">大甲芋頭城</a>
+                            <a class="nav-link ml-3 my-1" href="#item-2-2">御品元冰火湯圓</a>
+                            <a class="nav-link ml-3 my-1" href="#item-2-3">紅髮斑斑</a>
+                        </nav>
+                        <a class="nav-link" href="#item-3">飲料</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-3-1">泰奶奶的</a>
+                            <a class="nav-link ml-3 my-1" href="#item-3-2">京沺屋</a>
+                        </nav>
+                    </nav>
+                </nav>
+            </div>
+            <div class="col-8" > 
+                <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+                <h4 id="item-1">餐廳</h4>
+                <p>...</p>
+                <h5 id="item-1-1">⭐️不言Humble</h5>
+                <p>
+                    <div><img src="../img/01.jpg" ,alt="不言Humble" width="600" ></div>
+                    <div>🏠地址：台中市西屯區逢甲路88號</div>
+                    <div>👍隱藏在台中逢甲的高CP值義式料理!</div>
+                </p>
+                <h5 id="item-1-2">⭐️南洋廚坊 泰越料理</h5>
+                <p>
+                    <div><img src="../img/02.jpg" ,alt="南洋廚坊 泰越料理" width="600" ></div>
+                    <div>🏠地址：台中市西屯區逢甲路88號</div>
+                    <div>👍隱身逢甲巷弄裡，價格平實份量多，價格平實份量多，幾乎天天客滿～</div>
+                </p>
+                <h4 id="item-2">甜點</h4>
+                <h5 id="item-2-1">⭐️大甲芋頭城</h5>
+                <p>
+                    <div><img src="../img/03.jpg" alt="大甲芋頭城" width="600" ></div>
+                    <div>🏠地址:台中市西屯區福上巷278號</div>
+                    <div>👍選用大甲在地芋頭，平價且大碗，cp值高，推薦芋頭牛奶， 口感綿密超好喝</div>
+                </p>
+                <h5 id="item-2-2">⭐️御品元冰火湯圓</h5>
+                <p>
+                    <div><img src="../img/04.jpg" alt="御品元冰火湯圓" width="600" ></div>
+                    <div>🏠地址：台中市西屯區文華路127巷2號</div>
+                    <div>👍很特別的冰火湯圓，簡單的口味加上剉冰，冷熱交替的口感，另外還可以自己加桂花蜜與檸檬汁</div>
+                </p>
+                <h5 id="item-2-3">⭐️紅髮斑斑</h5>
+                <p>
+                    <div><img src="../img\05.jpg" alt="紅髮斑斑" width="600" ></div>
+                    <div>🏠地址：台中市西屯區文華路127巷2號</div>
+                    <div>👍天天都要排隊的短腿阿鹿副品牌，只賣蝴蝶酥，現烤餅乾超好吃</div>
+                    
+                </p>
+                <h4 id="item-3">飲料</h4>
+                <p>...</p>
+                <h5 id="item-3-1">⭐️泰奶奶的</h5>
+                <p>
+                    <div><img src="../img/06.jpg" ,alt="泰奶奶的" width="600" ></div>
+                    <div>🏠地址：台中市西屯區逢甲路20巷43號</div>
+                    <div>👍泰奶是現泡的，喝過的都說跟在泰國喝到的一樣，非常道地的滋味，喝過一次之後會上癮啊</div>
+                </p>
+                <h5 id="item-3-2">⭐️京沺屋</h5>
+                <p>
+                    <div><img src="../img/07.jpg" ,alt="京沺屋" width="600" height="400"></div>
+                    <div>🏠地址：台中市西屯區文華路129號</div>
+                    <div>👍來自台北西門町抹茶專門店，抹茶控們別錯過哦～</div>
+                </p>
+            </div>
+            </div>
+
+
+            
+        </div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript"> $(function () {
+            $('.scrollspy-example').scrollspy({ target: '#navbar-example' });
+        })</script> -->
+</body>
+
+</html>
