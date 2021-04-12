@@ -37,7 +37,7 @@
         }
 
         main {
-            
+            /* position: relative; */
             height: 500px;
             width: 1200px;
             overflow-y: scroll;
@@ -63,7 +63,7 @@
     <main>
         <div class="row" >
             <div class="col-3">
-                <nav id="navbar-example3" class="navbar navbar-light bg-light">
+                <nav id="navbar-example3" class="navbar navbar-light bg-light" style="position: fixed;width: 200px;">
                     <a class="navbar-brand" href="#">逢甲美食</a>
                     <nav class="nav nav-pills flex-column">
                         <a class="nav-link" href="#item-1">餐廳</a>
@@ -85,7 +85,7 @@
                     </nav>
                 </nav>
             </div>
-            <div id="a"class="col-8" style="overflow-y: scroll;">
+            <div class="col-8" style="overflow-y: scroll;">
                 <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
                 <h4 id="item-1">餐廳</h4>
                 <p>...</p>
@@ -150,9 +150,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-    <script type="text/javascript"> $(function () {
+    <!-- <script type="text/javascript"> $(function () {
             $('.scrollspy-example').scrollspy({ target: '#navbar-example' });
-        })</script>
+        })</script> -->
 </body>
 
 </html>
