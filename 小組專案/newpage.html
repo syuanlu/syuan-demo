@@ -16,9 +16,13 @@
             background-image: url('../image/back1.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            /*overflow-x: hidden;
-            overflow-y: auto;*/
+
             position: relative;
+<<<<<<< Updated upstream
+=======
+            
+
+>>>>>>> Stashed changes
         }
         
         .nav-link {
@@ -39,12 +43,13 @@
             /* position: relative; */
             height: 500px;
             width: 1200px;
-            overflow-y: scroll;
-            overflow-x: hidden;
+            /* overflow-y: scroll;
+            overflow-x: hidden; */
             padding-left: 50px;
             padding-top: 5px;
             font-family: 'Noto Sans TC', sans-serif;
             ;
+
         }
         
         .navbar-nav>li>a {
@@ -56,6 +61,7 @@
         .navbar {
             min-height: 10px;
         }
+<<<<<<< Updated upstream
         
         .box {
             width: 610px;
@@ -73,6 +79,13 @@
             color: #4d899b;
         }
 
+=======
+
+        
+        }
+
+
+>>>>>>> Stashed changes
     </style>
 </head>
 
@@ -80,7 +93,7 @@
     <nav class="nav bg-transparent text-white" style="margin: 20px;">
         <a class="navbar-brand" href="#"><img src="../image/beee.png" width="100px"></a>
         <div class="mr-auto"></div>
-        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link active active" href="#">Home</a>
         <a class="nav-link" href="#">About us</a>
         <a class="nav-link" href="#">Contact</a>
 
@@ -88,6 +101,7 @@
     <main>
         <div class="row ">
             <div class="col-3">
+<<<<<<< Updated upstream
                 <nav id="navbar-example1" class="navbar-xs navbar-light " style="position: fixed;width: 230px;">
                     <a class="navbar-brand">
                         <h3>
@@ -111,6 +125,21 @@
                                 <a class="nav-link ml-1 my-1" href="#item-3-1" style="color: rgb(190, 104, 101);">泰奶奶的</a>
                                 <a class="nav-link ml-1 my-1" href="#item-3-2" style="color: rgb(190, 104, 101);">京沺屋</a>
                             </nav>
+=======
+                <nav id="navbar-example " class="navbar-xs navbar-light " style="position: fixed;width: 230px;">
+                    <a class="navbar-brand " href="#">逢甲美食</a>
+                    <nav class="nav nav-pills flex-column active">
+                        <a class="nav-link h5 active" href="#item-1" style="color: goldenrod;">餐廳</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-1 my-1 " href="#item-1-1">不言Humble</a>
+                            <a class="nav-link ml-1 my-1" href="#item-1-2">南洋廚坊 泰越料理</a>
+                        </nav>
+                        <a class="nav-link h5" href="#item-2" style="color: goldenrod;">甜點</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-1 my-1" href="#item-2-1">大甲芋頭城</a>
+                            <a class="nav-link ml-1 my-1" href="#item-2-2">御品元</br>冰火湯圓</a>
+                            <a class="nav-link ml-1 my-1" href="#item-2-3">紅髮斑斑</a>
+>>>>>>> Stashed changes
                         </nav>
                 </nav>
             </div>
@@ -181,6 +210,7 @@
     </main>
 
 
+<<<<<<< Updated upstream
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script type="text/javascript">
@@ -190,6 +220,23 @@
             });
         })
     </script>
+=======
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('.scrollspy-example').scrollspy({ target: '#navbar-example' });
+        $('body').scrollspy({ target: '#navbar-example' })
+        })</script>
+    <script>$('[data-spy="scroll"]').each(function () {
+            var $spy = $(this).scrollspy('refresh')
+        })
+        $('body').scrollspy({ target: '#navbar-example' })</script>
+
+>>>>>>> Stashed changes
 
 
 </body>
